@@ -1,0 +1,10 @@
+using PasswordlessAuthentication.Samples;
+using Xunit;
+
+namespace PasswordlessAuthentication.EntityFrameworkCore.Applications;
+
+[Collection(PasswordlessAuthenticationTestConsts.CollectionDefinitionName)]
+public class EfCoreSampleAppServiceTests : SampleAppServiceTests<PasswordlessAuthenticationEntityFrameworkCoreTestModule>
+{
+
+}
